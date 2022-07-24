@@ -7,6 +7,11 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAzMf+oyXzPUe80Lu9unfcvQAAAAACAAAAAAAQZgAAAAEAACAAAAD0RFwEivq9WUGJxtkIaQUUhU4Wud8MurP6JXVnp3gjkgAAAAAOgAAAAAIAACAAAAAtqmxDxqsK+A3LM/+BMk+qZN3DOvnky3lpnou+t3Ec9IAAAAAXoNOCqNkU/zPxEHLSiIx7VpqObOfawQ5NN2zku2hRU8vcQ6QPAfTQLxlaudL+92SX7cWfXAvbqdbwfTVgDJTy5LfYwhTkdGdxoUColehyO0eE81JTrPIVhjZe9hznOqQGXroGtb9OYuRQQOaVdQ854PWPSAoM8r9cXZG8fOHfo0AAAAB7oIJRhBckpqcT3vUpey0Kun85Ymk5FNCc/llDzoyZRLMHh+IbnQ+JgrvcZB3pF73FHBOmvfiO0mFYGMQFKOy8</EncryptedPassword>
-    <History>True|2022-07-20T08:59:33.5871225Z;</History>
+    <History>True|2022-07-22T07:33:33.3090798Z;True|2022-07-20T14:29:33.5871225+05:30;</History>
   </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="EstockMarketDbConection">
+      <Value>Server=tcp:estockmarket1.database.windows.net,1433%3bInitial Catalog=EstockMarket%3bPersist Security Info=False%3bUser ID=estockmarket%3bPassword=Pratiksha%40123%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
 </Project>
